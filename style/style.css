@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#forum-container {
+    display: flex;
+}
+
+#topic-list, #post-list {
+    width: 50%;
+    padding: 10px;
+}
+
+#new-post-container {
+    margin-top: 20px;
+}
+
+#post-content {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}

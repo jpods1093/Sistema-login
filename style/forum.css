@@ -1,0 +1,147 @@
+/* Exemplo de paleta de cores */
+body {
+    background-color: #f0f0f0; /* Cor de fundo do corpo da página */
+    color: #333; /* Cor do texto */
+  }
+  
+  h1 {
+    color: #007bff; /* Cor do título principal */
+  }
+  
+  /* Botão principal */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+/* Estilo para os cabeçalhos */
+h1, h2, h3 {
+    font-family: "Arial", sans-serif;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  h3 {
+    font-size: 18px;
+  }
+/* Estilo para botões */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilo para campos de formulário */
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+/* Adicione margens e espaçamentos */
+#forum-container, #new-post-container, #reply-form-template {
+    margin: 20px;
+  }
+  
+  #search-container {
+    margin-top: 20px;
+  }
+  
+  #post-list {
+    margin-top: 30px;
+  }
+  
+  #post-list-ul li {
+    margin-bottom: 10px;
+  }
+/* Estilize a lista de tópicos e posts */
+#topic-list-ul, #post-list-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #topic-list-ul li, #post-list-ul li {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #topic-list-ul li {
+    margin-bottom: 10px;
+  }
+/* Estilize a lista de tópicos e posts */
+#topic-list-ul, #post-list-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #topic-list-ul li, #post-list-ul li {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative; /* Adicione esta propriedade para o posicionamento */
+  }
+  
+  /* Alinhar o botão de resposta à direita */
+  #topic-list-ul li button, #post-list-ul li button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #topic-list-ul li {
+    margin-bottom: 10px;
+  }
+/* Estilize a lista de tópicos e posts */
+#topic-list-ul,
+#post-list-ul {
+  list-style: none;
+  padding: 0;
+}
+
+#topic-list-ul li,
+#post-list-ul li {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Alinhar o botão de resposta à direita */
+#topic-list-ul li button,
+#post-list-ul li button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Limpar o estilo do botão de resposta */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: underline;
+  padding: 0;
+}
+  
